@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-navigation py-3">
+    <div class="bg-navigation py-3 font-sans">
       <div class="container mx-auto">
         <NuxtLink class="mr-12" to="/">Личный кабинет</NuxtLink>
         <NuxtLink to="/">Тендеры</NuxtLink>

@@ -16,9 +16,14 @@ module.exports = {
         mainBg: '#F6F6F6',
         navigation: '#EEEFF0',
         filters: '#F4F6F8',
+        tenders: '#212529',
       },
       fontFamily: {
         rubik: ['sans-serif', 'Rubik'],
+        arial: ['sans-serif', 'Arial'],
+      },
+      width: {
+        half: '48%',
       },
     },
   },

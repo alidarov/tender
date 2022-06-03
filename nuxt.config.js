@@ -13,7 +13,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  css: ['@/assets/css/main.css', '@/assets/css/fonts.css'],
+  css: ['@/assets/css/main.css', '@/assets/css/fonts.css', '@fortawesome/fontawesome-free/css/all.min.css'],
 
   plugins: [],
 
