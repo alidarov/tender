@@ -12,10 +12,13 @@ module.exports = {
         headers: '#BABABA',
         grBack: '#014743',
         inp: '#D9D9D9',
-        inpLabel: '#323C47'
+        inpLabel: '#323C47',
+        mainBg: '#F6F6F6',
+        navigation: '#EEEFF0',
+        filters: '#F4F6F8',
       },
       fontFamily: {
-        'rubik': ['sans-serif', 'Rubik']
+        rubik: ['sans-serif', 'Rubik'],
       },
     },
   },
