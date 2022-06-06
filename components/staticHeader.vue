@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-mainBg">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-4">
         <div class="py-2 flex items-center">
           <img class="w-10 h-auto mr-5" src="../assets/img/logo.png" alt="" />
           <p class="text-xs text-headers">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="bg-navigation py-3 font-sans">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-4">
         <NuxtLink class="mr-12" to="/">Личный кабинет</NuxtLink>
         <NuxtLink to="/">Тендеры</NuxtLink>
       </div>

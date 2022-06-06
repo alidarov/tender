@@ -1,7 +1,7 @@
 <template>
-  <div class="relative h-screen">
+  <div class="relative md:h-screen">
     <staticHeader />
-    <div class="flex justify-between h-screen">
+    <div class="flex justify-between md:h-screen">
       <div class="relative sm:w-1/2 lg:w-3/5 loginPage hidden md:block">
         <img class="logoCenter w-1/3" src="../assets/img/logo.png" alt="" />
         <div class="w-full py-6 bg-white absolute bottom-0 z-50">
@@ -14,13 +14,13 @@
       <div
         class="w-full md:w-1/2 lg:w-2/5 px-10 lg:px-0 flex items-center bg-grBack bg-opacity-5"
       >
-        <div class="mx-auto max-w-md font-rubik">
+        <div class="mx-auto max-w-md font-rubik py-10 lg:py-0">
           <img
             class="block md:hidden w-3/4 mx-auto"
             src="../assets/img/logo.png"
             alt=""
           />
-          <h1 class="text-grBack font-light text-5xl mb-6">
+          <h1 class="text-grBack font-light text-4xl mb-6">
             Добро пожаловать!
           </h1>
           <p class="mb-5 font-bold text-2xl text-grBack">Авторизация</p>

@@ -1,12 +1,14 @@
 <template>
   <div>
     <staticHeader />
-    <div class="container mt-10 mx-auto">
-      <div class="flex justify-between">
+    <div class="container mt-10 mx-auto px-4">
+      <div class="block lg:flex justify-between">
         <div class="w-full lg:w-1/5">
           <div class="font-sans">
             <div class="bg-navigation p-3">
-              <h2>Фильтр по параметрам</h2>
+              <nuxt-link to="/loginPage"
+                ><h2>Фильтр по параметрам</h2></nuxt-link
+              >
             </div>
             <div class="bg-filters p-3 py-4">
               <select class="w-full border-inp border p-3" name="" id="">
@@ -46,7 +48,7 @@
             >
           </div>
         </div>
-        <div class="w-4/5 pl-5 font-sans">
+        <div class="w-full my-4 lg:my-0 lg:w-4/5 lg:pl-5 font-sans">
           <p class="text-sm">Главная / Тендеры</p>
           <h1 class="text-3xl text-tenders mt-3 mb-4">
             Тендеры и закупки компаний Казахстана
