@@ -17,6 +17,16 @@ module.exports = {
         navigation: '#EEEFF0',
         filters: '#F4F6F8',
         tenders: '#212529',
+        total: '#999999',
+        setRed: '#ff0000',
+        statusTender: '#969696',
+        statusSt: '#1E1E1E',
+        countDown: '#DEDEDE',
+        activeCol: '#3A9625',
+        nonActiveCol: '#EF382A',
+        blCol: '#1E1E1E',
+        dividerCol: '#DDDDDD',
+        infoSet: '#767676'
       },
       fontFamily: {
         rubik: ['sans-serif', 'Rubik'],
