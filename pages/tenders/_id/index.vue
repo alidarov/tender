@@ -13,11 +13,11 @@
           />
           <p class="text-total text-xs">Обьем</p>
         </div>
-        <div class="bg-filters px-14 py-6 text-blCol">
-          <div class="flex justify-between items-center">
-            <div class="flex items-center">
-              <Countdown deadline="August 22, 2022"></Countdown>
-              <div class="ml-12 text-sm">
+        <div class="bg-filters px-4 lg:px-14 py-6 text-blCol">
+          <div class="block lg:flex justify-between items-center">
+            <div class="block lg:flex items-center text-center lg:text-left">
+              <Countdown deadline="June 15, 2022"></Countdown>
+              <div class="ml-0 lg:ml-12 text-sm my-4 lg:my-0">
                 <p>
                   Опубликовано:
                   <span class="text-activeCol">{{ tender.date_from }}</span>
@@ -32,7 +32,7 @@
                 </p>
               </div>
             </div>
-            <div class="text-sm">
+            <div class="text-sm text-center lg:text-left">
               <p>Запланированная сумма:</p>
               <p class="text-grBack text-xl font-semibold mb-2 mt-1">
                 {{ tender.price }} <span class="text-setRed">₸</span>
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="bg-filters px-14 py-3 text-sm text-blCol">
-        <p>Информация по лоту</p>
+        <p class="text-center lg:text-left">Информация по лоту</p>
       </div>
       <div class="text-sm my-2">
         <div
@@ -108,7 +108,7 @@ export default {
   layout: 'structureLayout',
   head() {
     return {
-      title: 'Тендеры',
+      title: this.tender.title + ' - Тендерная площадка',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {

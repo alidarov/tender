@@ -26,8 +26,16 @@ export default {
   components: true,
 
   buildModules: ['@nuxt/postcss8', '@nuxtjs/router'],
+  // compilerOptions: {
+  //   types: ['@nuxtjs/auth-next'],
+  // },
+  // router: {
+  //   middleware: ['auth'],
+  // },
 
-  modules: [],
+  modules: [
+    // '@nuxtjs/auth-next'
+  ],
   build: {
     postcss: {
       plugins: {

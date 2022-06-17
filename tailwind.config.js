@@ -26,7 +26,16 @@ module.exports = {
         nonActiveCol: '#EF382A',
         blCol: '#1E1E1E',
         dividerCol: '#DDDDDD',
-        infoSet: '#767676'
+        infoSet: '#767676',
+        labelCol: '#444444',
+        editProfile: '#9B9B9B',
+        adminLink: '#707683',
+        adminDivider: '#EBEFF2',
+        adminInp: '#01474326',
+        adminBack: '#f5f6f8',
+        adminList: '#8492A9',
+        adminCanceled: '#FF0000',
+        cancelEdit: '#F05E5E'
       },
       fontFamily: {
         rubik: ['sans-serif', 'Rubik'],
@@ -34,6 +43,7 @@ module.exports = {
       },
       width: {
         half: '48%',
+        permission: '32%',
       },
     },
   },
